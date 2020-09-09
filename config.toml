@@ -1,0 +1,81 @@
+baseURL = "https://example.com"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Website of Jane Doe"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+###############################################################################
+#Profile picture and slogan
+
+[params]
+title = "I'm Rohit Satyam"
+author = "Rohit Satyam"
+description = "Bioinformatician | Data Analyst | Structural Biologist"
+profilePicture = "images/profile.jpg"
+keywords = ""
+#favicon = "favicons/"
+customCss = []
+customJs = []
+mainSections = ["post"]
+#images = ["images/site-feature-image.png"]
+########################################################################################
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+
+###################################	Social Media #####################################
+## Social links
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/rohit-satyam-705617117/"
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/Rohit-Satyam"
+
+[[params.socialIcons]]
+icon = "fa-twitter"
+title = "instagram"
+url = "https://twitter.com/RohitSatyam1"
+
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "e-mail"
+url = "rohitsatyam102@gmail.com"
+#############################################################################
+
+####################################### Menu items	#########################
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+

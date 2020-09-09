@@ -1,4 +1,4 @@
-baseURL = "https://gifted-chandrasekhar-1e2600.netlify.app"
+baseURL = "https://rohitgenomics101.netlify.app"
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Website of Jane Doe"
@@ -6,7 +6,7 @@ theme = "anatole"
 summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
-#canonifyURLs = true
+canonifyURLs = true
 
 # Enable Disqus
 #disqusShortname = ""
